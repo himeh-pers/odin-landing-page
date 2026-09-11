@@ -1,2 +1,2 @@
-# odin-landing-page
-#ODIN PROJECT PAGE
+# Odin Landing Page
+Johnmer J. Rabaya - ITE18 FNHX1
