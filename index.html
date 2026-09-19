@@ -11,30 +11,85 @@
     <nav class="nav">
       <img class="logo" src="images/logo.png" alt="Odin Recipes Logo" />
       <h1>ODIN RECIPES</h1>
+      <ul class="header-links">
+        <li><a href="recipes/lasagna.html">Lasagna</a></li>
+        <li><a href="recipes/tacos.html">Tacos</a></li>
+        <li><a href="recipes/pancakes.html">Pancakes</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="landing">
 
-    <nav>
+    <!-- hero -->
+    <section class="hero">
       <div class="hero-block">
-        <img src="images/me.jpg" alt="Johnmer Rabaya" />
         <div class="hero-text">
-          <p>Welcome! I am <strong>Johnmer Rabaya</strong> and here's a small collection of recipes to get you cooking. Pick one below to see the ingredients and steps.</p>
+          <h2>Maglu2 na!</h2>
+          <p>Welcome! ako diay si <strong>Johnmer Rabaya</strong> and here's a small collection of recipes to get you cooking. Ikaw na bahala pili asay imoha diraa, dako naman ka.</p>
+          <a class="button" href="#recipes">See the recipes</a>
         </div>
+        <img src="images/me.jpg" alt="Johnmer Rabaya" />
       </div>
-    </nav>
+    </section>
 
+    <!-- info (the 4 boxes) -->
+    <section class="info" id="recipes">
+      <h2>Food Selection</h2>
+      <ul class="recipe-list">
+        <li>
+          <a href="recipes/lasagna.html">
+            <img src="https://images.unsplash.com/photo-1619895092538-128341789043?w=400&q=80" alt="A baked lasagna fresh out of the oven" />
+            <h3>Classic Lasagna</h3>
+            <p>Cheesy and worth the wait</p>
+          </a>
+        </li>
+        <li>
+          <a href="recipes/tacos.html">
+            <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400&q=80" alt="Beef tacos topped with lettuce, cheese, and salsa" />
+            <h3>Beef Tacos</h3>
+            <p>Ready in under 30 minutes</p>
+          </a>
+        </li>
+        <li>
+          <a href="recipes/pancakes.html">
+            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80" alt="A stack of fluffy pancakes topped with syrup and butter" />
+            <h3>Fluffy Pancakes</h3>
+            <p>Easy weekend breakfast</p>
+          </a>
+        </li>
+        <li class="coming-soon">
+          <div class="soon-box">?</div>
+          <h3>Empanadas</h3>
+          <p>Coming Soon...</p>
+        </li>
+      </ul>
+    </section>
 
-    <ul class="recipe-list">
-      <li><a href="recipes/lasagna.html">Classic Lasagna</a></li>
-      <li><a href="recipes/tacos.html">Beef Tacos</a></li>
-      <li><a href="recipes/pancakes.html">Fluffy Pancakes</a></li>
-    </ul>
+    <!-- quote -->
+    <section class="quote">
+      <blockquote>
+        <p>"Maki CR raman tana ko, ni kaon naman sab ko usab..."</p>
+        <cite>- si kuan</cite>
+      </blockquote>
+    </section>
+
+    <!-- call to action -->
+    <section class="cta">
+      <div class="cta-box">
+        <div class="cta-text">
+          <h2>Gutom ka? Luto'g imo kay di ko nimo mama-..</h2>
+          <p>Pick a recipe and start cooking. ay pagtinamad, ali na... </p>
+          <p>di mani mo gana ang button, design lang hehe</p>
+        </div>
+        <a class="button button-outline" href="#recipes">Start cooking</a>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>Note: This is a basic HTML page for ITE18.</p>
+  <footer class="landing-footer">
+    <p>Note: This is a basic HTML page for ITE18 and for personal entertainment.</p>
   </footer>
 </body>
 </html>
